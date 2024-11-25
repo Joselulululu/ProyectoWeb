@@ -1,0 +1,90 @@
+*{
+margin: 0rem;
+box-sizing: border-box;
+}
+/*
+Inicializando tamaño 
+*/
+html{font-size: 62.5%;}
+body{font-size: 1.6rem;}ç
+
+.abc{
+    color: rgb(175, 60, 60);
+}
+
+h1 > span{
+    color: green;
+}
+
+h1{
+    padding: 2rem;
+}
+.tecen{
+    text-align: center;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.1rem solid;
+    padding: 1rem;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 0.4rem solid black;
+    border-radius: 10rem;
+    font-size: 3rem;
+}
+
+nav :hover{
+    background-color:green;
+}
+
+.imcab{
+    background-image: url(./imagenes/Imagen\ ref.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40rem;
+ }
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5rem;
+    width: 80%;
+    margin: 0.6rem auto 0.6rem auto;
+    text-align: center;
+}
+
+section > img{
+    max-width: 100%;
+}
+.pseudo{
+    width: 80%;
+    margin: 2rem auto 2rem auto;
+    column-count: 3;
+    column-gap: 2rem;
+    column-rule: 0.2rem dotted black;
+}
+
+p::first-letter{
+    font-size: 5rem;
+    color: greenyellow;
+}
+
+.fond{
+    background-image: url(./imagenes/tipomanga1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60rem;
+}
+
