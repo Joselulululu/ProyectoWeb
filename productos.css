@@ -41,34 +41,36 @@ nav :hover{
     background-color:green;
 }
 
-header{
-    border-style: solid;
-    border-radius: 20px;
-    padding: 5px;
+
+.re{
     text-align: center;
-}       
-body{
-    background-position: center center;
+    margin: 8rem 70rem;
+    border: solid black;
+}
+td{
+    border: solid black;
+}
+.imcab {
+    background-image: url(./imagenes/Natsuki.Subaru.full.2533416\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center center;
+    height: 70rem;
 }
-.grid{
-  padding-top: 30px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
+section>img {
+    max-width: 100%;
 }
-.grid img{
-    width:100%;
-    margin: auto;
-    border: 3px solid white;
-    transition: all 0.5s ease;
+.zero{
+    margin: 1rem 75rem;
+    border: solid black;
 }
-.grid img:hover{
-    transform: scale(0.9);    
+li{
+    border: solid black 0.1rem;
 }
-
+.flex{
+    display: flex;
+    flex-direction: column;
+}
 @media (min-width: 1200px) {
     nav {
         font-size: 2rem;
@@ -80,6 +82,15 @@ body{
     }
 }
 
+.dis{
+    display: flex;
+    flex-direction: row;
+    height: 14rem;
+    width: 20rem;
+}
+.non{
+    text-decoration: none;
+}
 
 @media (max-width:1200px) and (min-width: 800px) {
     nav {

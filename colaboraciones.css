@@ -1,6 +1,7 @@
 * {
     margin: 0rem;
     box-sizing: border-box;
+    background-color: rgb(193, 193, 218);
 }
 
 html {
@@ -22,11 +23,11 @@ nav{
 
 nav > a{
     text-decoration: none;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
     border: 0.4rem solid black;
     border-radius: 10rem;
     font-size: 3rem;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 nav :hover{
@@ -42,6 +43,16 @@ h1>span {
 h1 {
     padding: 2rem;
     text-align: center;
+    margin: 2rem;
+}
+h2{
+    margin: 5rem;
+}
+
+.mar{
+    text-align: center;
+    margin: 5rem;   
+    color: rgb(0, 0, 0);
 }
 
 @media (min-width: 1200px) {

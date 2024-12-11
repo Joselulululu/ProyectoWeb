@@ -41,34 +41,63 @@ nav :hover{
     background-color:green;
 }
 
-header{
-    border-style: solid;
-    border-radius: 20px;
-    padding: 5px;
-    text-align: center;
-}       
-body{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.grid{
-  padding-top: 30px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
-}
-.grid img{
-    width:100%;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ .contacto{
+    background-color: rgb(75, 65, 65);
+    border: solid 1rem black;
+    width: 65%;
     margin: auto;
-    border: 3px solid white;
-    transition: all 0.5s ease;
-}
-.grid img:hover{
-    transform: scale(0.9);    
+    padding: 15px;
 }
 
+
+.contacto h1{
+   color: white;
+   text-align: center;
+   padding: 10px;
+   margin: 2rem 40rem 0px 3rem;
+}
+
+
+.linea{
+   background: rgb(51, 19, 19);
+   height: 5px;
+   width: 30%;
+   margin: 2rem 40rem 0px 20rem;
+   margin-bottom: 10px;
+}
+
+
+.formulario{
+   display: flex;
+   flex-direction: column;
+   margin: 2    rem;
+}
+.cen{
+    text-align: center;
+    text-decoration: none;
+}
+.Sep{
+    text-decoration: none;
+}
+
+
+.formulario > *{
+   margin: 2rem 40rem 2rem 20rem;
+   padding: 15px;
+   border-radius: 10px;
+   background-color: rgb(56, 13, 13);
+}
+ 
+.peq{
+    margin:2rem 40rem 0px 80rem;
+}
 @media (min-width: 1200px) {
     nav {
         font-size: 2rem;
