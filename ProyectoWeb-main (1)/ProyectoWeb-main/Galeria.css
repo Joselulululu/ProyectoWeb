@@ -1,0 +1,105 @@
+* {
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+h1>span {
+    color: green;
+}
+
+h1 {
+    padding: 2rem;
+    text-align: center;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.1rem solid;
+    padding: 1rem;
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    padding: 1rem 2rem 1rem 2rem;
+    border: 0.4rem solid black;
+    border-radius: 10rem;
+    font-size: 3rem;
+}
+
+nav :hover{
+    background-color:green;
+}
+
+header{
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}       
+body{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.grid{
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+.grid img{
+    width:100%;
+    margin: auto;
+    border: 3px solid white;
+    transition: all 0.5s ease;
+}
+.grid img:hover{
+    transform: scale(0.9);    
+}
+
+@media (min-width: 1200px) {
+    nav {
+        font-size: 2rem;
+    }
+
+    nav a {
+        padding: 25px;
+        background-color: rgb(68, 6, 6);
+    }
+}
+
+
+@media (max-width:1200px) and (min-width: 800px) {
+    nav {
+        font-size: 1.5rem;
+
+    }
+
+    nav a {
+        padding: 15px;
+        background-color: rgb(17, 0, 255);
+    }
+}
+
+
+@media (max-width: 80rem) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav>a {
+        background-color: rgb(0, 46, 2);
+    }
+}
